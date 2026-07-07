@@ -168,9 +168,9 @@ The `Dataset/` folder contains fingerprint images organised by blood group label
 
 The Streamlit dashboard displays:
 
-- **Confidence bar chart** - per-class probability for each model side-by-side
-- **Radar chart** - multi-model comparison across all 8 blood group classes
-- **Results table** - prediction, confidence score, and a traffic-light performance indicator (🟢 High / 🟡 Medium / 🔴 Low) for each model
+- **Confidence bar chart** - Per-class probability for each model side-by-side
+- **Radar chart** - Multi-model comparison across all 8 blood group classes
+- **Results table** - Prediction, confidence score, and a traffic-light performance indicator (🟢 High / 🟡 Medium / 🔴 Low) for each model
 
 ---
 
