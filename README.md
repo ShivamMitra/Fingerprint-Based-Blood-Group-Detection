@@ -31,11 +31,11 @@ This project explores the hypothesis that fingerprint ridge patterns carry biome
 
 ## ✨ Features
 
-- **Multi-model ensemble** — AlexNet, LeNet, ResNet-34, and VGG-16, combined for robust predictions
-- **Two ensemble strategies** — weighted voting and probability averaging
-- **Explainable AI (XAI)** — three distinct visualization methods per model
-- **Interactive Streamlit UI** — drag-and-drop image upload, live confidence charts, radar plots, and detailed result tables
-- **Per-model performance metrics** — parameter counts, layer counts, input/output shapes
+- **Multi-model ensemble** - AlexNet, LeNet, ResNet-34, and VGG-16, combined for robust predictions
+- **Two ensemble strategies** - Weighted voting and probability averaging
+- **Explainable AI (XAI)** - Three distinct visualization methods per model
+- **Interactive Streamlit UI** - Drag-and-Drop image upload, live confidence charts, radar plots, and detailed result tables
+- **Per-model performance metrics** - Parameter counts, layer counts, input/output shapes
 
 ---
 
@@ -84,7 +84,7 @@ The `XAIAnalyzer` class (in `xai.py` and integrated into `app_1.py`) provides th
 | Method | What it shows |
 |--------|--------------|
 | **Grad-CAM** | Highlights the fingerprint regions that most strongly activated the final convolutional layer for the predicted class |
-| **Occlusion Sensitivity** | Systematically blocks patches of the image and measures how much the prediction confidence drops — brighter areas are more critical |
+| **Occlusion Sensitivity** | Systematically blocks patches of the image and measures how much the prediction confidence drops brighter areas are more critical |
 | **SmoothGrad** | Averages gradients over multiple noise-perturbed copies of the image to reduce visual noise and reveal stable feature attributions |
 
 Each method produces a colour-mapped overlay (JET / HOT / VIRIDIS colormaps respectively) that is displayed alongside the original fingerprint in the app.
